@@ -1,0 +1,75 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+.q{
+    background-color: mediumpurple;
+    height: 50px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.search-form-input {
+    font-size: 15px;
+    border: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    width: 300px;
+    height: 30px;
+    padding: 0px 5px;
+}
+
+.search-btn{
+    font-size: 15px;
+    border: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.search-btn:hover{
+    background: aqua;
+}
+
+
+
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 25px;
+}
+
+.photo-card {
+    flex-flow: column;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+
+img {
+    display: block;
+    width: 350px;
+    height: 250px;
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 350px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #c3c2c2;
+    border-left: 1px solid #c3c2c2;
+    border-right: 1px solid #c3c2c2;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+}
