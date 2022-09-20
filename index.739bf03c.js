@@ -2828,7 +2828,7 @@ parcelHelpers.export(exports, "fetchImage", ()=>fetchImage);
 var _axios = require("axios");
 var _axiosDefault = parcelHelpers.interopDefault(_axios);
 const KEY = "29971148-c945d30420d20d2baba09e6a1";
-const url = new window.URL("https://pixabay.com/api");
+const url = new window.URL("https://pixabay.com/api/");
 url.searchParams.append("key", KEY);
 url.searchParams.append("image_type", "photo");
 url.searchParams.append("orientation", "horizontal");
